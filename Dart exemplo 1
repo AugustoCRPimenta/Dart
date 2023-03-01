@@ -1,0 +1,16 @@
+void main() {
+  String nome = "Augusto";
+  int idade = 20;
+  double altura = 1.85;
+  bool emaiordeidade = true;
+
+  List <String> frutas = ['maçã', 'banana', 'laranja'];
+  
+  Map <String, int> nomes = {'Maria':25, 'Joao':30};
+
+  print ("${frutas[0]}");
+
+  
+  
+}
+
