@@ -1,0 +1,29 @@
+void main() {
+  int numero = 42;
+  String texto = "Olá mundo!";
+  
+      if (numero is int){
+        print('A váriavel "numero" é do tipo "int"');
+      }else{
+        print('a variavel "numero" não é do tipo "int"');
+      }
+       
+  //ordem nao especificada requerido obrigatoria
+  
+  int soma(int a, int b){
+          return a + b;
+        }  
+      print (soma(10,5));
+
+  //ordem nao interfere, especificada
+  
+  a = 0;
+  b = 0;
+  
+  int somas({int a, int b}){
+    return a + b;
+  }
+  print (somas(a:10, b:5));
+  
+}
+
