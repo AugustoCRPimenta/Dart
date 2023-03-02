@@ -3,14 +3,22 @@ void main() {
   int idade = 20;
   double altura = 1.85;
   bool emaiordeidade = true;
+  
+  String nome2 = "Joao";
+  int idade2 = 17;
+  double altura2 = 1.80;
+  bool maioridade = false;
 
+  
+  
   List <String> frutas = ['maçã', 'banana', 'laranja'];
   
   Map <String, int> nomes = {'Maria':25, 'Joao':30};
 
-  print ("${frutas[0]}");
-
-  
+ print (nome.runtimeType);
+ print (idade.runtimeType);
+ print (altura.runtimeType);
+ print (emaiordeidade.runtimeType);
+ print (nomes.runtimeType); 
   
 }
-
